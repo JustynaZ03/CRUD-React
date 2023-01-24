@@ -1,0 +1,25 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  &__top-items-li {
+    display: inline;
+    float: right;
+  }
+  &__top-items-li:hover {
+    background-color: green;
+  }
+  &__top-items-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+  }
+}

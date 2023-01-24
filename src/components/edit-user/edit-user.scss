@@ -1,0 +1,39 @@
+.edit-user {
+  width: 100%;
+  height: 100%;
+  &__container-center {
+    margin: auto;
+    width: 60%;
+    border: 3px dotted black;
+
+    padding: 10px;
+  }
+  &__container-center-title {
+    text-align: center;
+  }
+  &__container-center-form {
+    display: flex;
+  }
+  &__container-center-input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  &__container-center-label {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+  }
+  &__container-center-items {
+    display: inherit;
+  }
+  &__container-center-button {
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+  }
+  &__container-center-items-button {
+    display: inline-flex;
+  }
+}
